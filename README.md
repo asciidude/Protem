@@ -4,6 +4,8 @@ The rocket-fast project generator made in Node.js created by [asciidude](https:/
 
 Looking for support? [Join us on Discord](https://discord.gg/NBxHE5UyTD).
 
+<b>Protem is a work in progress. This repository was made to visualize the README file, and this repository is rendered useless so far.</b> You can join us on Discord to actually get updates, though.
+
 ## :thinking:  What is Protem?
 Protem is a CLI where there is a set of projects to use, Protem will handle installing the node dependencies for the project (unless configured not to) along with any other requirements needed.
 
