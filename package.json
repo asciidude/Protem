@@ -1,0 +1,35 @@
+{
+  "name": "protem",
+  "version": "0.0.1",
+  "description": "The rocket-fast project generator made in Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "protem --project hello-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asciidude/Protem.git"
+  },
+  "keywords": [
+    "protem",
+    "projects",
+    "generator",
+    "project",
+    "templates",
+    "template",
+    "easy-to-use",
+    "functional",
+    "fast",
+    "optimized",
+    "quick",
+    "web-scraper",
+    "discord",
+    "express"
+  ],
+  "author": "pxpcandy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asciidude/Protem/issues"
+  },
+  "homepage": "https://github.com/asciidude/Protem#readme"
+}
