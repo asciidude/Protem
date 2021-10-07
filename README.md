@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-    <img src="images/icon.png"  />
+    <img src="images/icon.png" style="width:50%;height:50%;"/>
 </div>
 
 # :rocket: Protem
