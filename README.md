@@ -1,6 +1,4 @@
-<center>
-    <img src="images/icon.png"></img>
-</center>
+<img src="images/icon.png" style="width:50px;height:50px;align-items:center;"></img>
 
 # :rocket: Protem
 
