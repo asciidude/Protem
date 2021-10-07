@@ -59,4 +59,4 @@ Example command: `protem --check-updates false --project express-hbs --new-direc
 * `web-scraper` A simple web-scraper using Puppeteer
 * `discord-bot` A bot with a command handler made in Discord.js v12, with a help and ping command
 
--> <i>Protem stands for Project Templates</i>
+<i>Protem stands for Project Templates</i>
