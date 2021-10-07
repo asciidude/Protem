@@ -1,3 +1,7 @@
+<center>
+    <img src="images/icon.png"></img>
+</center>
+
 # :rocket: Protem
 
 The rocket-fast project generator made in Node.js created by [asciidude](https://www.github.com/asciidude).
