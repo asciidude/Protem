@@ -54,9 +54,9 @@ Example command: `protem --check-updates false --project express-hbs --new-direc
 
 ## :cd: Projects
 
-`hello-world` The default hello world project\
-`express-https` An Express app that uses Handlebars and creates an HTTPS server\
-`web-scraper` A simple web-scraper using Puppeteer\
-`discord-bot` A bot with a command handler made in Discord.js v12, with a help and ping command
+* `hello-world` The default hello world project
+* `express-https` An Express app that uses Handlebars and creates an HTTPS server
+* `web-scraper` A simple web-scraper using Puppeteer
+* `discord-bot` A bot with a command handler made in Discord.js v12, with a help and ping command
 
-:lightbulb: <i>Protem stands for Project Templates</i>
+-> <i>Protem stands for Project Templates</i>
