@@ -8,8 +8,6 @@ The rocket-fast project generator made in Node.js created by [asciidude](https:/
 
 Looking for support? [Join us on Discord](https://discord.gg/NBxHE5UyTD).
 
-<b>Protem is a work in progress. This repository/npm page was made to visualize the README file, and this repository is rendered useless so far.</b> You can join us on Discord to actually get updates, though.
-
 ## :thinking:  What is Protem?
 Protem is a CLI where there is a set of projects to use, Protem will handle installing the node dependencies for the project (unless configured not to) along with any other requirements needed.
 
@@ -29,9 +27,6 @@ Specify if you want to check for updates.
 
 `list-changes` | default: `false` | short: `C`\
 Show the list of changes if there is a new update.
-
-`include-structure` | default: `true` | short: `f`\
-This will include the `FILE_STRUCTURE.md` file.
 
 `project` | default: `hello-world` | short: `p`\
 This is the project to generate.
