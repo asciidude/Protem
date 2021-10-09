@@ -3,6 +3,7 @@ module.exports.program = new Command();
 
 const package = require('../package.json');
 const getLatestVersion = require('./utils/getLatestVersion.js');
+const { get } = require('simple-requests');
 
 this.program.version('0.0.1').name('protem').addHelpText('after', 'If you need additional support, join our Discord at https://discord.gg/NBxHE5UyTD')
     .option('-T, --create-template', 'Specify if you\'d like to create a project template, using this for otherwise is used for update checking', true)
@@ -17,13 +18,25 @@ this.program.parse(process.argsv);
 
 const options = this.program.opts();
 
-if(options.checkUpdates) {
-    if(package.version < getLatestVersion('protem')) {
-        console.log('⚠ THERE IS A NEW VERSION AVALIABLE FOR PROTEM ⚠\n' +
-                    'Please install the new version with this command: npm i protem --save\n' +
-                    'If there are any bugs, report it to the developer on our Discord server: https://discord.gg/NBxHE5UyTD\n' +
-                    '⚠ THERE IS A NEW VERSION AVALIABLE FOR PROTEM ⚠');
+const main = async () => {
+    if(options.checkUpdates) {
+        if(package.version < await getLatestVersion('protem')) {
+            console.log('⚠ THERE IS A NEW VERSION AVALIABLE FOR PROTEM ⚠\n' +
+                        'Please install the new version with this command: npm i protem --save\n' +
+                        'If there are any bugs, report it to the developer on our Discord server: https://discord.gg/NBxHE5UyTD\n' +
+                        '⚠ THERE IS A NEW VERSION AVALIABLE FOR PROTEM ⚠');
+        }
+    }
+    
+    if(options.listChanges) {
+        if(package.version < await getLatestVersion('protem')) {
+            await get('https://pastebin.com/raw/psZqjTzi').then((res) => {
+                console.log(res.data);
+            });
+        }
     }
 }
+
+main();
 
 if(!options.createTemplate) return;

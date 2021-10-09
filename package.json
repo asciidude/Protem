@@ -1,6 +1,6 @@
 {
   "name": "protem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The rocket-fast project generator made in Node.js",
   "main": "src/index.js",
   "scripts": {
@@ -34,6 +34,7 @@
   "homepage": "https://github.com/asciidude/Protem#readme",
   "dependencies": {
     "commander": "^8.2.0",
-    "package-json": "^7.0.0"
+    "package-json": "^7.0.0",
+    "simple-requests": "^0.3.4"
   }
 }
